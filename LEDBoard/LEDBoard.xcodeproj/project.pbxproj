@@ -17,6 +17,9 @@
 		08B98837276346E40088CD63 /* LEDBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B98836276346E40088CD63 /* LEDBoardTests.m */; };
 		08B98841276346E40088CD63 /* LEDBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B98840276346E40088CD63 /* LEDBoardUITests.m */; };
 		08B98843276346E40088CD63 /* LEDBoardUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B98842276346E40088CD63 /* LEDBoardUITestsLaunchTests.m */; };
+		35ED37F4ACAFD3F5A01E8D4B /* Pods_LEDBoard_LEDBoardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94D646DB0C6FD22289E1640 /* Pods_LEDBoard_LEDBoardUITests.framework */; };
+		47FB8F3F6EE114A8B1435FDD /* Pods_LEDBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0316BE0996F09D02C8E9BC73 /* Pods_LEDBoard.framework */; };
+		A223548DCAC446834D9A30EC /* Pods_LEDBoardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B2AF9647A116DD394FC2E52 /* Pods_LEDBoardTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01CB9F7D62C05FA28DFC7E0A /* Pods-LEDBoard-LEDBoardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEDBoard-LEDBoardUITests.release.xcconfig"; path = "Target Support Files/Pods-LEDBoard-LEDBoardUITests/Pods-LEDBoard-LEDBoardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0316BE0996F09D02C8E9BC73 /* Pods_LEDBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LEDBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B98817276346DF0088CD63 /* LEDBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B9881A276346DF0088CD63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08B9881B276346DF0088CD63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +59,13 @@
 		08B9883C276346E40088CD63 /* LEDBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B98840276346E40088CD63 /* LEDBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDBoardUITests.m; sourceTree = "<group>"; };
 		08B98842276346E40088CD63 /* LEDBoardUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDBoardUITestsLaunchTests.m; sourceTree = "<group>"; };
+		4752A51F1E985A32AEA1B71A /* Pods-LEDBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEDBoard.release.xcconfig"; path = "Target Support Files/Pods-LEDBoard/Pods-LEDBoard.release.xcconfig"; sourceTree = "<group>"; };
+		4B2AF9647A116DD394FC2E52 /* Pods_LEDBoardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LEDBoardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		591DC673DC1AF5F4A6F53686 /* Pods-LEDBoardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEDBoardTests.debug.xcconfig"; path = "Target Support Files/Pods-LEDBoardTests/Pods-LEDBoardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E1FE0503515AAB9F65DDF8B /* Pods-LEDBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEDBoard.debug.xcconfig"; path = "Target Support Files/Pods-LEDBoard/Pods-LEDBoard.debug.xcconfig"; sourceTree = "<group>"; };
+		C94D646DB0C6FD22289E1640 /* Pods_LEDBoard_LEDBoardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LEDBoard_LEDBoardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA972B53139DAAB7F746A017 /* Pods-LEDBoard-LEDBoardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEDBoard-LEDBoardUITests.debug.xcconfig"; path = "Target Support Files/Pods-LEDBoard-LEDBoardUITests/Pods-LEDBoard-LEDBoardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE84316B01EAB33670100F4E /* Pods-LEDBoardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEDBoardTests.release.xcconfig"; path = "Target Support Files/Pods-LEDBoardTests/Pods-LEDBoardTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47FB8F3F6EE114A8B1435FDD /* Pods_LEDBoard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A223548DCAC446834D9A30EC /* Pods_LEDBoardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35ED37F4ACAFD3F5A01E8D4B /* Pods_LEDBoard_LEDBoardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,8 @@
 				08B98835276346E40088CD63 /* LEDBoardTests */,
 				08B9883F276346E40088CD63 /* LEDBoardUITests */,
 				08B98818276346DF0088CD63 /* Products */,
+				0932A92033F1A793B586C231 /* Pods */,
+				3DE29F59D111760B17208F94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +153,30 @@
 			path = LEDBoardUITests;
 			sourceTree = "<group>";
 		};
+		0932A92033F1A793B586C231 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E1FE0503515AAB9F65DDF8B /* Pods-LEDBoard.debug.xcconfig */,
+				4752A51F1E985A32AEA1B71A /* Pods-LEDBoard.release.xcconfig */,
+				CA972B53139DAAB7F746A017 /* Pods-LEDBoard-LEDBoardUITests.debug.xcconfig */,
+				01CB9F7D62C05FA28DFC7E0A /* Pods-LEDBoard-LEDBoardUITests.release.xcconfig */,
+				591DC673DC1AF5F4A6F53686 /* Pods-LEDBoardTests.debug.xcconfig */,
+				DE84316B01EAB33670100F4E /* Pods-LEDBoardTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3DE29F59D111760B17208F94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0316BE0996F09D02C8E9BC73 /* Pods_LEDBoard.framework */,
+				C94D646DB0C6FD22289E1640 /* Pods_LEDBoard_LEDBoardUITests.framework */,
+				4B2AF9647A116DD394FC2E52 /* Pods_LEDBoardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08B98846276346E40088CD63 /* Build configuration list for PBXNativeTarget "LEDBoard" */;
 			buildPhases = (
+				D9DE416CD3923665DD228718 /* [CP] Check Pods Manifest.lock */,
 				08B98813276346DE0088CD63 /* Sources */,
 				08B98814276346DE0088CD63 /* Frameworks */,
 				08B98815276346DE0088CD63 /* Resources */,
+				8EFE389BE34C15EA1575E67B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08B98849276346E40088CD63 /* Build configuration list for PBXNativeTarget "LEDBoardTests" */;
 			buildPhases = (
+				B17C72C782CA9C98C0F92188 /* [CP] Check Pods Manifest.lock */,
 				08B9882E276346E40088CD63 /* Sources */,
 				08B9882F276346E40088CD63 /* Frameworks */,
 				08B98830276346E40088CD63 /* Resources */,
@@ -178,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08B9884C276346E40088CD63 /* Build configuration list for PBXNativeTarget "LEDBoardUITests" */;
 			buildPhases = (
+				C2E53EB61901A71ECCB0201B /* [CP] Check Pods Manifest.lock */,
 				08B98838276346E40088CD63 /* Sources */,
 				08B98839276346E40088CD63 /* Frameworks */,
 				08B9883A276346E40088CD63 /* Resources */,
+				F53058D993CF2B7A9271C9B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +306,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EFE389BE34C15EA1575E67B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LEDBoard/Pods-LEDBoard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LEDBoard/Pods-LEDBoard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LEDBoard/Pods-LEDBoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B17C72C782CA9C98C0F92188 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LEDBoardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2E53EB61901A71ECCB0201B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LEDBoard-LEDBoardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9DE416CD3923665DD228718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LEDBoard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F53058D993CF2B7A9271C9B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LEDBoard-LEDBoardUITests/Pods-LEDBoard-LEDBoardUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LEDBoard-LEDBoardUITests/Pods-LEDBoard-LEDBoardUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LEDBoard-LEDBoardUITests/Pods-LEDBoard-LEDBoardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		08B98813276346DE0088CD63 /* Sources */ = {
@@ -439,6 +588,7 @@
 		};
 		08B98847276346E40088CD63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1FE0503515AAB9F65DDF8B /* Pods-LEDBoard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +615,7 @@
 		};
 		08B98848276346E40088CD63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4752A51F1E985A32AEA1B71A /* Pods-LEDBoard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +642,7 @@
 		};
 		08B9884A276346E40088CD63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 591DC673DC1AF5F4A6F53686 /* Pods-LEDBoardTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +665,7 @@
 		};
 		08B9884B276346E40088CD63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE84316B01EAB33670100F4E /* Pods-LEDBoardTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +688,7 @@
 		};
 		08B9884D276346E40088CD63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA972B53139DAAB7F746A017 /* Pods-LEDBoard-LEDBoardUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -555,6 +709,7 @@
 		};
 		08B9884E276346E40088CD63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01CB9F7D62C05FA28DFC7E0A /* Pods-LEDBoard-LEDBoardUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
