@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		08B9881C276346DF0088CD63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B9881B276346DF0088CD63 /* AppDelegate.m */; };
-		08B9881F276346DF0088CD63 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B9881E276346DF0088CD63 /* SceneDelegate.m */; };
 		08B98822276346DF0088CD63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B98821276346DF0088CD63 /* ViewController.m */; };
 		08B98825276346DF0088CD63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B98823276346DF0088CD63 /* Main.storyboard */; };
 		08B98827276346E40088CD63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B98826276346E40088CD63 /* Assets.xcassets */; };
@@ -20,6 +19,7 @@
 		35ED37F4ACAFD3F5A01E8D4B /* Pods_LEDBoard_LEDBoardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94D646DB0C6FD22289E1640 /* Pods_LEDBoard_LEDBoardUITests.framework */; };
 		47FB8F3F6EE114A8B1435FDD /* Pods_LEDBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0316BE0996F09D02C8E9BC73 /* Pods_LEDBoard.framework */; };
 		A223548DCAC446834D9A30EC /* Pods_LEDBoardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B2AF9647A116DD394FC2E52 /* Pods_LEDBoardTests.framework */; };
+		EC5359692771E82800C2838B /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5359682771E82800C2838B /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,6 @@
 		08B98817276346DF0088CD63 /* LEDBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B9881A276346DF0088CD63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08B9881B276346DF0088CD63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		08B9881D276346DF0088CD63 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		08B9881E276346DF0088CD63 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		08B98820276346DF0088CD63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		08B98821276346DF0088CD63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		08B98824276346DF0088CD63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +64,10 @@
 		C94D646DB0C6FD22289E1640 /* Pods_LEDBoard_LEDBoardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LEDBoard_LEDBoardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA972B53139DAAB7F746A017 /* Pods-LEDBoard-LEDBoardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEDBoard-LEDBoardUITests.debug.xcconfig"; path = "Target Support Files/Pods-LEDBoard-LEDBoardUITests/Pods-LEDBoard-LEDBoardUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE84316B01EAB33670100F4E /* Pods-LEDBoardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LEDBoardTests.release.xcconfig"; path = "Target Support Files/Pods-LEDBoardTests/Pods-LEDBoardTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC5359672771E82800C2838B /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		EC5359682771E82800C2838B /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		EC53596F2771F49A00C2838B /* LEDPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEDPrefixHeader.pch; sourceTree = "<group>"; };
+		EC5359702771F4DA00C2838B /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +125,11 @@
 			children = (
 				08B9881A276346DF0088CD63 /* AppDelegate.h */,
 				08B9881B276346DF0088CD63 /* AppDelegate.m */,
-				08B9881D276346DF0088CD63 /* SceneDelegate.h */,
-				08B9881E276346DF0088CD63 /* SceneDelegate.m */,
+				EC5359702771F4DA00C2838B /* Macros.h */,
+				EC53596F2771F49A00C2838B /* LEDPrefixHeader.pch */,
 				08B98820276346DF0088CD63 /* ViewController.h */,
 				08B98821276346DF0088CD63 /* ViewController.m */,
+				EC5359662771E7F900C2838B /* AddLEDBoard */,
 				08B98823276346DF0088CD63 /* Main.storyboard */,
 				08B98826276346E40088CD63 /* Assets.xcassets */,
 				08B98828276346E40088CD63 /* LaunchScreen.storyboard */,
@@ -163,7 +166,6 @@
 				591DC673DC1AF5F4A6F53686 /* Pods-LEDBoardTests.debug.xcconfig */,
 				DE84316B01EAB33670100F4E /* Pods-LEDBoardTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,6 +177,39 @@
 				4B2AF9647A116DD394FC2E52 /* Pods_LEDBoardTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC5359662771E7F900C2838B /* AddLEDBoard */ = {
+			isa = PBXGroup;
+			children = (
+				EC53596C2771E84F00C2838B /* Model */,
+				EC53596B2771E84500C2838B /* View */,
+				EC53596A2771E83200C2838B /* Controller */,
+			);
+			path = AddLEDBoard;
+			sourceTree = "<group>";
+		};
+		EC53596A2771E83200C2838B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC5359672771E82800C2838B /* AddViewController.h */,
+				EC5359682771E82800C2838B /* AddViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC53596B2771E84500C2838B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC53596C2771E84F00C2838B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,10 +450,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5359692771E82800C2838B /* AddViewController.m in Sources */,
 				08B98822276346DF0088CD63 /* ViewController.m in Sources */,
 				08B9881C276346DF0088CD63 /* AppDelegate.m in Sources */,
 				08B9882D276346E40088CD63 /* main.m in Sources */,
-				08B9881F276346DF0088CD63 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +629,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LEDBoard/LEDPrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LEDBoard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -621,6 +658,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LEDBoard/LEDPrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LEDBoard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
